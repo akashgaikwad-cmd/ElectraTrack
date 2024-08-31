@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "502256870431",
+    "project_id": "electratrack",
+    "storage_bucket": "electratrack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502256870431:android:b7ab864edb475fd215e12a",
+        "android_client_info": {
+          "package_name": "com.example.electratrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmaqiW7VQrbn6fD4R0BanYdp21zqCDGsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

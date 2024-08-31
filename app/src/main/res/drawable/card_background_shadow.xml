@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow Layer -->
+    <item android:right="8dp" android:left="8dp" android:top="8dp" android:bottom="8dp">
+        <shape>
+            <solid android:color="#666666" />
+            <corners android:radius="18dp" />
+        </shape>
+    </item>
+
+    <!-- Card Background Layer -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="25dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_expense"
+    android:background="@color/purple">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:elevation="4dp">
+
+        <!-- Header with Back Icon and Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/purple"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_marginTop="2dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="Profile Icon"
+                android:src="@drawable/backmain"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="Generate Report"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Content Area -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:background="@drawable/rounded_background">
+
+                <TextView
+                    android:id="@+id/reportTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Generate Report"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="24dp"
+                    android:textColor="@color/purple"/>
+
+                <!-- Buttons with Rounded Corners -->
+                <Button
+                    android:id="@+id/todayReportButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Generate Today's Report"
+                    android:layout_below="@id/reportTitle"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="@color/white"
+                    android:elevation="2dp"
+                    android:paddingVertical="12dp"/>
+
+                <Button
+                    android:id="@+id/last10DaysReportButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Generate Last 10 Days Report"
+                    android:layout_below="@id/todayReportButton"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="@color/white"
+                    android:elevation="2dp"
+                    android:paddingVertical="12dp"/>
+
+                <Button
+                    android:id="@+id/last20DaysReportButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Generate Last 20 Days Report"
+                    android:layout_below="@id/last10DaysReportButton"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="@color/white"
+                    android:elevation="2dp"
+                    android:paddingVertical="12dp"/>
+
+                <Button
+                    android:id="@+id/last30DaysReportButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Generate Last 30 Days Report"
+                    android:layout_below="@id/last20DaysReportButton"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="@color/white"
+                    android:elevation="2dp"
+                    android:paddingVertical="12dp"/>
+
+                <Button
+                    android:id="@+id/allReportButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Generate All Reports"
+                    android:layout_below="@id/last30DaysReportButton"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rounded_button"
+                    android:textColor="@color/white"
+                    android:elevation="2dp"
+                    android:paddingVertical="12dp"/>
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <!-- Bottom Navigation -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/purple"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/myImageView"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="Add Expense Icon"
+                    android:src="@drawable/add1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Add Expense"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/report"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="Generate Report Icon"
+                    android:src="@drawable/report1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Generate Report"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/recent"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="Recent Transactions Icon"
+                    android:src="@drawable/recent2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Recent Transactions"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
