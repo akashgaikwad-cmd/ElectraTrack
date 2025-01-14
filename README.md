@@ -28,3 +28,21 @@ Feel free to contribute to the project by submitting pull requests, reporting is
 
 # License:
 This project is licensed under the MIT License.
+### OUTPUTS
+<p align="center">
+<img src="https://github.com/akashgaikwad-cmd/ElectraTrack/blob/main/outputs/WhatsApp%20Image%202025-01-14%20at%2018.47.12_0bdbc44c.jpg" alt="Image description" width="300" height="500">
+<img src="https://github.com/akashgaikwad-cmd/ElectraTrack/blob/main/outputs/WhatsApp%20Image%202025-01-14%20at%2018.47.12_1fc3ef74.jpg" alt="Image description" width="300" height="500">
+<img src="https://github.com/akashgaikwad-cmd/ElectraTrack/blob/main/outputs/WhatsApp%20Image%202025-01-14%20at%2018.47.13_0e122741.jpg" alt="Image description" width="300" height="500">
+</p>
+<p align="center">
+<img src="https://github.com/akashgaikwad-cmd/ElectraTrack/blob/main/outputs/WhatsApp%20Image%202025-01-14%20at%2018.47.13_79f0b84e.jpg" alt="Image description" width="300" height="500">
+<img src="https://github.com/akashgaikwad-cmd/ElectraTrack/blob/main/outputs/WhatsApp%20Image%202025-01-14%20at%2018.47.13_9b453370.jpg" alt="Image description" width="300" height="500">
+<img src="https://github.com/akashgaikwad-cmd/ElectraTrack/blob/main/outputs/WhatsApp%20Image%202025-01-14%20at%2018.47.14_4c6c7d9d.jpg" alt="Image description" width="300" height="500">
+</p>
+<p align="center">
+<img src="https://github.com/akashgaikwad-cmd/ElectraTrack/blob/main/outputs/WhatsApp%20Image%202025-01-14%20at%2018.47.14_7beef27f.jpg" alt="Image description" width="300" height="500">
+<img src="https://github.com/akashgaikwad-cmd/ElectraTrack/blob/main/outputs/WhatsApp%20Image%202025-01-14%20at%2018.47.14_f3cbb5ae.jpg" alt="Image description" width="300" height="500">
+</p>
+<p align="center">
+<img src="https://github.com/akashgaikwad-cmd/KAgroMart/blob/main/outputs/1%20(10).jpg" alt="Image description" width="300" height="500">
+</p>
